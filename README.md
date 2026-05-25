@@ -1,4 +1,4 @@
-# SterioTheremin
+# StereoTheremin
 II'm sure you are familiar with the Theremin. 
 It is a musical instrument that uses hand movements to control pitch and volume. 
 One hand controls pitch, and the other hand control volume. 
