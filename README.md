@@ -7,3 +7,10 @@ I like the expressiveness of a no contact instrument,
  With my version each hand controls both pitch and volume. 
  The up/down motion controls volume, and the right/left motion controls pitch. 
  This way the right hand plays treble and the left hand plays base, like a piano.
+## Code
+The micropython code that runs on the Raspberry PI Pico.
+## Control
+The python code that runs on a PC or a tablet to control the Stereo Theremin.
+## PCB
+The KiCad files for the printed circuit board. 
+Version 10.0.
