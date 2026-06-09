@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio Theremin")
 		(date "2026-02-14")
-		(rev "2.0")
+		(rev "2.1")
 		(company "Christle Engineering")
 	)
 	(lib_symbols
@@ -9104,13 +9104,13 @@
 				)
 			)
 		)
-		(property "Value" "TL974"
+		(property "Value" "LM324AN"
 			(at 236.474 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9300,7 +9300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL974"
+		(property "Value" "LM324AN"
 			(at 233.934 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9918,13 +9918,13 @@
 				)
 			)
 		)
-		(property "Value" "TL974"
-			(at 235.966 55.88 0)
+		(property "Value" "LM324AN"
+			(at 236.474 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10189,7 +10189,7 @@
 				)
 			)
 		)
-		(property "Value" "430K"
+		(property "Value" "300K"
 			(at 224.79 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10426,7 +10426,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 50.8 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 50.8 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Value" "430K"
+		(property "Value" "300K"
 			(at 224.79 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,13 +13631,13 @@
 				)
 			)
 		)
-		(property "Value" "TL974"
-			(at 236.22 106.68 0)
+		(property "Value" "LM324AN"
+			(at 236.474 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13904,13 +13904,13 @@
 				)
 			)
 		)
-		(property "Value" "TL974"
-			(at 236.22 33.274 0)
+		(property "Value" "LM324AN"
+			(at 236.474 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -15319,7 +15319,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 50.8 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15500,7 +15500,7 @@
 				)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "16V"
 			(at 27.94 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +16397,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 50.8 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17427,7 @@
 				)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "16V"
 			(at 239.776 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18180,7 +18180,7 @@
 				)
 			)
 		)
-		(property "Value" "430K"
+		(property "Value" "300K"
 			(at 224.79 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19393,7 +19393,7 @@
 				)
 			)
 		)
-		(property "Value" "430K"
+		(property "Value" "300K"
 			(at 224.79 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20269,7 +20269,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 51.054 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20427,7 +20427,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "47K"
 			(at 50.8 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21252,7 +21252,7 @@
 				)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "16V"
 			(at 40.64 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
