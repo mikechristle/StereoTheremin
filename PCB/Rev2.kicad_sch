@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio Theremin")
 		(date "2026-02-14")
-		(rev "2.1")
+		(rev "2.2")
 		(company "Christle Engineering")
 	)
 	(lib_symbols
@@ -5408,6 +5408,12 @@
 		(uuid "abbb7642-e795-4bc5-8cab-65d626a0b2d1")
 	)
 	(junction
+		(at 93.98 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad319c95-21ca-40fd-9344-6dc0972ba3f8")
+	)
+	(junction
 		(at 34.29 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6226,6 +6232,16 @@
 			(type default)
 		)
 		(uuid "4bd19a0d-493d-46ac-8810-ffb65ccb725a")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.8) (xy 93.98 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c83123c-b435-4eea-9fb1-987dade25a2c")
 	)
 	(wire
 		(pts
@@ -7536,6 +7552,16 @@
 			(type default)
 		)
 		(uuid "d3cbf922-42f4-4cee-bfe2-3db84eaf3638")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 93.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d409bc29-ae58-4efd-a625-eef6c1830f7f")
 	)
 	(wire
 		(pts
@@ -9597,7 +9623,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "56K"
 			(at 40.64 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10426,7 +10452,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "10K"
 			(at 50.8 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,6 +11309,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 93.98 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38613830-80eb-4e8c-a545-94eaaca7098b")
+		(property "Reference" "#PWR062"
+			(at 93.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fbb0607-bc02-49a6-9333-2c2c2a40ce50")
+		)
+		(instances
+			(project "Rev2"
+				(path "/e9471e7b-e883-42de-8fea-93c998677c96"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 91.44 127 180)
 		(unit 1)
@@ -11382,7 +11487,7 @@
 				)
 			)
 		)
-		(property "Value" "5M1"
+		(property "Value" "1M8"
 			(at 62.484 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "10K"
 			(at 40.64 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,7 +11724,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "56K"
 			(at 50.8 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "10K"
 			(at 40.64 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +13060,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "56K"
 			(at 40.64 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +13657,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "56K"
 			(at 40.64 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,7 +15424,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "56K"
 			(at 50.8 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15743,6 +15848,86 @@
 				(path "/e9471e7b-e883-42de-8fea-93c998677c96"
 					(reference "U4")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 88.9 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bd633ce-2fec-4ed8-84be-9ea567b854a6")
+		(property "Reference" "J4"
+			(at 89.662 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 89.535 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "STFootPrints:PinHeader_1x02_P2.54mm_Vertical"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a1532c1-86d5-4bdd-a845-8c46347f2ed9")
+		)
+		(pin "2"
+			(uuid "6b0d1ce6-87de-4a0f-89d1-e8ed6b05f9eb")
+		)
+		(instances
+			(project "Rev2"
+				(path "/e9471e7b-e883-42de-8fea-93c998677c96"
+					(reference "J4")
+					(unit 1)
 				)
 			)
 		)
@@ -16397,7 +16582,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "10K"
 			(at 50.8 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16792,7 +16977,7 @@
 				)
 			)
 		)
-		(property "Value" "5M1"
+		(property "Value" "1M8"
 			(at 62.484 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18019,7 +18204,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "10K"
 			(at 40.64 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19156,7 +19341,7 @@
 				)
 			)
 		)
-		(property "Value" "5M1"
+		(property "Value" "1M8"
 			(at 62.484 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20269,7 +20454,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "10K"
 			(at 51.054 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20427,7 +20612,7 @@
 				)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "56K"
 			(at 50.8 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
